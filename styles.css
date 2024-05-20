@@ -1,0 +1,70 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+#country-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.country {
+  cursor: pointer;
+  color: #3498db;
+  text-decoration: underline;
+  margin: 10px 0;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.country:hover {
+  color: #2980b9;
+}
+
+.city-list {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #3498db;
+}
+
+.city-list div {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #7f8c8d;
+  transition: color 0.3s;
+}
+
+.city-list div:hover {
+  color: #34495e;
+}
+
+.country-list-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.country-list-item:last-child {
+  border-bottom: none;
+}
+
+.country.open {
+  font-weight: bold;
+  color: #2980b9;
+}
+
+.city-list-item {
+  padding: 5px 0;
+}
